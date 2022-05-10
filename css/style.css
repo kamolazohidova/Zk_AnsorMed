@@ -1,4 +1,4 @@
-        /* CUSTOM PROPERT  */
+        /* CUSTOM PROPERTY  */
         
 :root {
     --accent-font-family: "Open Sans", "Arial", sans-serif;
@@ -85,7 +85,7 @@ body {
     margin-bottom: 24px;
 }
 
-.site-header-container {
+.site-header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,7 +108,7 @@ body {
     color: rgba(222, 46, 84, 0.6);
 }
 
-.site-logo-img {
+.site-logo__img {
     margin-right: 16px;
     border-radius: 50%;
 }
@@ -123,7 +123,7 @@ body {
     text-transform: uppercase;
 }
 
-.sitenav-list {
+.sitenav__list {
     display: flex;
     align-items: center;
     margin: 0;
@@ -131,21 +131,21 @@ body {
     list-style: none;
 }
 
-.sitenav-item:not(:last-child) {
+.sitenav__item:not(:last-child) {
     margin-right: 32px;
 }
 
-.sitenav-link {
+.sitenav__link {
     display: block;
     color: #222;
     text-decoration: none;
 }
 
-.sitenav-link:hover {
+.sitenav__link:hover {
     color: #de2e54;
 }
 
-.sitenav-link:active {
+.sitenav__link:active {
     opacity: 0.6;
 }
 
@@ -189,18 +189,18 @@ body {
      color: #fff;
 }
 
-.hero-container {
+.hero__container {
     display: flex;
     justify-content: space-between;
 }
 
-.hero-content {
+.hero__content {
     width: 500px;
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-.hero-heading {
+.hero__heading {
     margin-top: 0;
     margin-bottom: 16px;
     font-family: var(--font-text);
@@ -208,7 +208,7 @@ body {
     line-height: 1.2;
 }
 
-.hero-text {
+.hero__text {
     width: 440px;
     margin-top: 0;
     margin-bottom: 36px;
@@ -239,7 +239,7 @@ body {
     padding-bottom: 120px;
 }
 
-.index-services-heading {
+.index-services__heading {
     margin-top: 0;
     margin-bottom: 56px;
     font-family: var(--font-text);
@@ -249,7 +249,7 @@ body {
     text-align: center;
 }
 
-.index-services-list {
+.index-services__list {
     width: 864px;
     margin: 0;
     padding: 0;
@@ -259,7 +259,7 @@ body {
     list-style-type: none;
 }
 
-.index-services-item:not(:last-child) {
+.index-services__item:not(:last-child) {
     margin-bottom: 80px;
 }
 
@@ -268,7 +268,7 @@ body {
     align-items: center;
 }
 
-.index-services-img {
+.index-services__img {
     width: 200px;
     height: 200px;
     margin-right: 64px;
@@ -277,17 +277,17 @@ body {
     box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
 }
 
-.index-services-content {
+.index-services__content {
     width: 600px;
 }
 
-.index-services-title {
+.index-services__title {
     margin-top: 0;
     margin-bottom: 24px;
     color: #222;
 }
 
-.index-services-description {
+.index-services__description {
     margin: 0;
 }
 
@@ -345,7 +345,7 @@ body {
     background: #222;
 }
 
-.site-footer-container {
+.site-footer__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
